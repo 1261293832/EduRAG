@@ -1,0 +1,32 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE / 系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 日志与运行产物
+logs/
+*.log
+
+# 大模型权重文件（体积过大，超 GitHub 单文件限制）
+rag_qa/models/
+**/models/*.safetensors
+**/models/*.bin
+**/models/*.gguf
+**/models/*.onnx
+**/models/*.pth
+**/models/*.pt
+
+# 本地配置
+config.ini
+
+# 数据文件
+*.csv
+*.jsonl
